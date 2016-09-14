@@ -1,0 +1,23 @@
+{
+	"name": "titan-framework/install",
+	"description": "Scaffolding to install Titan Framework's Core in production environments.",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Camilo Carromeu",
+			"email": "camilo@carromeu.com",
+			"homepage": "http://pandora.cnpgc.embrapa.br/staff/Camilo-Carromeu",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.2"
+	},
+	"scripts": {
+		"post-create-project-cmd": [
+			"/bin/sh install.sh"
+		]
+	}
+}
