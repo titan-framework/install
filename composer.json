@@ -19,5 +19,8 @@
 		"post-create-project-cmd": [
 			"/bin/bash install.sh"
 		]
+	},
+	"config": {
+		"vendor-dir": "extra"
 	}
 }
