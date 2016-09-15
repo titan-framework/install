@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! [ -x "$(command -v git)" ]; then
-	echo "Git is not installed! Install Debian package 'git-core' and retry."
+	echo "Git is not installed! Install Debian package 'git' and retry."
 
 	exit 0
 fi
