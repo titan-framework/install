@@ -10,7 +10,7 @@ git clone --no-checkout https://github.com/titan-framework/core tmp
 
 mv tmp/.git ./
 
-rm -rf tmp
+rm -rf *
 
 rm -- "$0"
 

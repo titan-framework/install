@@ -16,9 +16,6 @@
 		"php": ">=5.2"
 	},
 	"scripts": {
-		"pre-package-install": [
-			"/bin/bash check.sh"
-		],
 		"post-create-project-cmd": [
 			"/bin/bash install.sh"
 		]
