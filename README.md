@@ -23,4 +23,4 @@ composer create-project titan-framework/install path/to/local/folder
 More Information
 ----------------
 
-After install CORE in server, your web application will not works yet. For this, you need install all requirements (like Apache with mod_rewrite, PHP and it's extensions, PostgreSQL, etc). See [Titan Cookbook](document/Cookbook.pdf) (*in portuguese*) to detailed explanation. You can also access our [mailing list](https://groups.google.com/forum/#!forum/titan-framework) to learn advanced features and answer questions.
+After install CORE in server, your web application will not works yet. For this, you need install all requirements (like Apache with mod_rewrite, PHP and it's extensions, PostgreSQL, etc). See [Titan Cookbook](https://github.com/titan-framework/docs/raw/master/Cookbook.pdf) (*in portuguese*) to detailed explanation. You can also access our [mailing list](https://groups.google.com/forum/#!forum/titan-framework) to learn advanced features and answer questions.
