@@ -16,7 +16,9 @@ rm -- "$0"
 
 git reset --hard HEAD
 
-tag=$(git describe --tags)
+git fetch --all
+
+tag=$(git describe --abbrev=0 --tags origin/master)
 
 regex='([0-9]+)\.([0-9]+)\.([0-9]+)\-([a-zA-Z]+)([0-9]*).*'
 
@@ -28,6 +30,8 @@ then
    real="${BASH_REMATCH[1]}.${BASH_REMATCH[2]}.${BASH_REMATCH[3]}-${BASH_REMATCH[4]}${BASH_REMATCH[5]}"
    view="${BASH_REMATCH[1]}.${BASH_REMATCH[2]}.${BASH_REMATCH[3]}-${BASH_REMATCH[5]}"
 fi
+
+git pull origin master
 
 git checkout ${real}
 
