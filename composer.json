@@ -21,9 +21,10 @@
 		]
 	},
 	"config": {
-		"vendor-dir": "extra"
+		"vendor-dir": "extra",
+		"github-protocols": [ "https" ]
 	},
 	"repositories": [
-		{ "type": "composer", "url": "https://packagist.org" }, { "packagist": false }
+		{ "type": "composer", "url": "https://packagist.org" }
 	]
 }
