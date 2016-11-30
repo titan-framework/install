@@ -35,4 +35,6 @@ git pull origin master
 
 git checkout ${real}
 
+composer install --no-dev
+
 echo "Version ${view} of Titan Framework Core installed!"
